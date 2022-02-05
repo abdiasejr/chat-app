@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChannelList, useChatContext } from 'stream-chat-react';
+import { Channel, ChannelList, useChatContext } from 'stream-chat-react';
 import Cookies from 'universal-cookie';
 
 import { ChannelSearch, TeamChannelList, TeamChannelPreview } from './';
@@ -22,10 +22,20 @@ const SideBar = () => (
   </div>
 );
 
+const CompanyHeader = () => (
+  <div className='channel-list__header'>
+    <p className='channel-list__header__text'>Chat App</p>
+  </div>
+);
+
 const ChannelListContainer = () => {
   return (
     <>
       <SideBar />
+      <div className='channel-list__list__wrapper'>
+        <CompanyHeader />
+        <ChannelSearch />
+      </div>
     </>
   );
 };
