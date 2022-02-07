@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server side of chat app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdiasejr/chat-app.git"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "author": "abdias <abdiasejr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abdiasejr/chat-app/issues"
+  },
+  "homepage": "https://github.com/abdiasejr/chat-app#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "getstream": "^7.4.1",
+    "nodemon": "^2.0.15",
+    "stream-chat": "^5.5.0",
+    "twilio": "^3.73.1"
+  }
+}
