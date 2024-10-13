@@ -12,7 +12,7 @@
     "react-scripts": "5.0.0",
     "stream-chat": "^5.5.0",
     "stream-chat-react": "^6.12.2",
-    "universal-cookie": "^4.0.4",
+    "universal-cookie": "^7.2.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
